@@ -8,13 +8,19 @@ To create a procedure using PL/SQL.
 ## STEPS:
 
 1)Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
+
 2)Create a procedure named as insert_employee data.
+
 3)Inside the procdure block, write the query for inserting the values into the employee table.
+
 4)End the procedure.
+
 5)Call the insert_employee data procedure to insert the values into the employee table.
+
 6)Display the employee table
 
 ## PROGRAM:
+
 ### Create Table:
 ```
  create table employeetable(Emp_id number ,Emp_name char (100) , Dept char(20) , Salary number);
